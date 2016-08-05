@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Selfie</string>
-    <string name="share">Share</string>
-    <string name="send_to">Send to&#8230;</string>
-    <string name="button_capture">Capture Image</string>
-    <string name="button_album">Album</string>
-    <string name="button_undo">Undo Sticker</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_display">DisplayActivity</string>
+    <string name="action_complete">Complete</string>
+    <string name="double_click_input_text">Điền text vào đây</string>
+    <string name="add_sticker">Add Sticker</string>
+    <string name="add_bubble">Add Bubble</string>
+    <string name="complete">Complete</string>
+    <string name="publish_comment">Viết comment……</string>
+    <string name="over_text_limit">Quá giới hạn từ quy định</string>
 </resources>

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_content_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -9,5 +11,39 @@
         android:id="@+id/imageView2"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:contentDescription="@null"/>
+        android:contentDescription="@null" />
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/multiple_actions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        fab:fab_addButtonColorNormal="@color/red_e73a3d"
+        fab:fab_addButtonColorPressed="@color/red_b00606"
+        fab:fab_addButtonPlusIconColor="@color/white"
+        fab:fab_labelStyle="@style/menu_labels_style"
+        fab:fab_labelsPosition="left"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/action_add_sticker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/red_e73a3d"
+            fab:fab_colorPressed="@color/red_b00606"
+            fab:fab_title="@string/add_sticker" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/action_add_bubble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            fab:fab_colorNormal="@color/red_e73a3d"
+            fab:fab_colorPressed="@color/red_b00606"
+            fab:fab_title="@string/add_bubble" />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+
 </RelativeLayout>

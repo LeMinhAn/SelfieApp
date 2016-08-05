@@ -15,19 +15,20 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center">
 
-        <ImageButton
+        <ImageView
             android:id="@+id/button_capture"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:contentDescription="@string/button_capture" />
+            android:src="@drawable/ic_camera" />
 
-        <ImageButton
+        <ImageView
             android:id="@+id/button_album"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:contentDescription="@string/button_album" />
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_album" />
     </LinearLayout>
 
 
